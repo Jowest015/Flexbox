@@ -5,7 +5,8 @@
 
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-grow: 1;
 }
 
 .column {
@@ -13,7 +14,7 @@
 }
 
 .wrap {
-  flex-wrap: wrap;
+  flex-wrap: wrap
 }
 
 .box {
@@ -21,4 +22,24 @@
   min-height: 50px;
   min-width: 50px;
   flex-grow: 1;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
 }
