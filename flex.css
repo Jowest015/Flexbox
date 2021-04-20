@@ -1,0 +1,14 @@
+.main-container {
+  display: flex;
+}
+
+.container {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.box {
+  border-style: solid;
+  min-height: 50px;
+  min-width: 50px;
+}
