@@ -1,9 +1,18 @@
 .main-container {
   display: flex;
+  height: 700px;
 }
 
 .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
   flex-direction: column;
+}
+
+.wrap {
   flex-wrap: wrap;
 }
 
@@ -11,4 +20,5 @@
   border-style: solid;
   min-height: 50px;
   min-width: 50px;
+  flex-grow: 1;
 }
